@@ -1,0 +1,84 @@
+.section3{
+    width: 100%;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+}
+img{
+    max-width: 100%;
+}
+.top{
+    width: 100%;
+    float: left;
+    border-bottom: 3px solid #e24d00;
+}
+.top-left{
+    float: left;
+    width: 30%;
+    margin-top: 9px;
+}
+.top-left a{
+    background-color: #e24d00;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+.top-right {
+    float: right;
+    width: 40%;
+}
+.top-right ul li{
+    float: left;
+    list-style: none;
+    color: black;
+}
+.top-right ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    text-transform: uppercase;
+    transition: 400ms;
+}
+.top-right ul li a:hover{
+    color: #e24d00;
+}
+.bot{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.bot-left{
+    width: 50%;
+    float: left;
+}
+.bot-right{
+    width: calc( 50% - 10px);
+    float: right;
+}
+.bot-left #content1{
+    width: calc( 50% - 10px);
+    float: left;
+}
+.bot-left #content2{
+    width: calc( 50% - 10px);
+    float: right;
+}
+.bot-right #content3{
+    width: calc( 50% - 10px);
+    float: left;
+}
+.bot-right #content4{
+    width: calc( 50% - 10px);
+    float: right;
+}
+.title a {
+    color: black;
+    transition: 400ms;
+    font-size: 17px;
+    text-decoration: none;
+}
+.title a:hover{
+    color: #e24d00;
+}
